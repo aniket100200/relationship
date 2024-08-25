@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/relationship/static/css/main.4571962e.css",
+    "main.js": "/relationship/static/js/main.111fad8d.js",
+    "index.html": "/relationship/index.html",
+    "main.4571962e.css.map": "/relationship/static/css/main.4571962e.css.map",
+    "main.111fad8d.js.map": "/relationship/static/js/main.111fad8d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4571962e.css",
+    "static/js/main.111fad8d.js"
+  ]
+}
