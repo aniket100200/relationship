@@ -1,0 +1,69 @@
+/* Main container */
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f4f8;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Form styling */
+form {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Input fields */
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Buttons */
+button[type="button"], button[type="reset"] {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+/* Specific button colors */
+button[type="button"] {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+button[type="button"]:hover {
+    background-color: #0056b3;
+}
+
+button[type="reset"] {
+    background-color: #dc3545;
+    color: #ffffff;
+}
+
+button[type="reset"]:hover {
+    background-color: #c82333;
+}
+
+/* Answer display */
+h3[data-testid="answer"] {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #333333;
+    font-weight: bold;
+}
